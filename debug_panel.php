@@ -31,9 +31,7 @@
         var loopArray = function (_scripts, scripts) {
             // call itself
             loadScript(_scripts[x], scripts[x], function () {
-                // set x to next item
                 x++;
-                // any more items in array?
                 if (x < _scripts.length) {
                     loopArray(_scripts, scripts);
                 }
@@ -52,7 +50,7 @@
 
         script = document.createElement('script');
         script.onerror = function () {
-            // handling error when loading script
+           
             alert('Error to handle')
         }
         script.onload = function () {
