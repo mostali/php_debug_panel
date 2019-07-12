@@ -1,5 +1,5 @@
 # Simple html view for php debug environment
-Simple debug panel. Diplay the all defined variables from php environment - $_GLOBALS &amp;&amp; get_defined_vars()
+Simple debug panel. Display the all defined variables from php environment - $_GLOBALS &amp;&amp; get_defined_vars()
 
 
 
