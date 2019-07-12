@@ -1,7 +1,7 @@
 # vdebug
 Simple debug panel. Diplay the all defined variables from php environment - $_GLOBALS &amp;&amp; get_defined_vars()
 
-![Alt text](https://github.com/mostali/vdebug/blob/master/screen.jpg?raw=true "PHP Debug Panel")
+
 
 Usage
 
@@ -25,4 +25,4 @@ if ($active)
 
 
 
-
+![Alt text](https://github.com/mostali/vdebug/blob/master/screen.jpg?raw=true "PHP Debug Panel")
