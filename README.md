@@ -3,7 +3,8 @@ Simple debug panel. Diplay the all defined variables from php environment - $_GL
 
 ![Alt text](https://github.com/mostali/vdebug/blob/master/screen.jpg?raw=true "PHP Debug Panel")
 
-#Install
+Usage
+
 <?php
 /**
  * View values from $_GLOBALS & thread context (get_defined_vars())
