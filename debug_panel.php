@@ -31,7 +31,9 @@
         var loopArray = function (_scripts, scripts) {
             // call itself
             loadScript(_scripts[x], scripts[x], function () {
+                // set x to next item
                 x++;
+                // any more items in array?
                 if (x < _scripts.length) {
                     loopArray(_scripts, scripts);
                 }
@@ -50,7 +52,7 @@
 
         script = document.createElement('script');
         script.onerror = function () {
-           
+            // handling error when loading script
             alert('Error to handle')
         }
         script.onload = function () {
@@ -83,12 +85,12 @@
 <div style="display:none;"><pre id="dbg_var" style="background-color:lightblue" ></pre></div>
 <script>
 
-    var $_SERVER =<?php echo json_encode(UFS::ro('mdb/$_SERVER.arr')); ?>;
-    var $_GET =<?php echo json_encode(UFS::ro('mdb/$_GET.arr')); ?>;
-    var $_POST =<?php echo json_encode(UFS::ro('mdb/$_POST.arr')); ?>;
-    var $_COOKIE =<?php echo json_encode(UFS::ro('mdb/$_COOKIE.arr')); ?>;
-    var $_FILES =<?php echo json_encode(UFS::ro('mdb/$_FILES.arr')); ?>;
-    var $_PHPINFO =<?php echo json_encode(UFS::ro('mdb/$_PHPINFO.arr')); ?>;
+    var $_SERVER =<?php echo json_encode(VUtils::ro('mdb/$_SERVER.arr')); ?>;
+    var $_GET =<?php echo json_encode(VUtils::ro('mdb/$_GET.arr')); ?>;
+    var $_POST =<?php echo json_encode(VUtils::ro('mdb/$_POST.arr')); ?>;
+    var $_COOKIE =<?php echo json_encode(VUtils::ro('mdb/$_COOKIE.arr')); ?>;
+    var $_FILES =<?php echo json_encode(VUtils::ro('mdb/$_FILES.arr')); ?>;
+    var $_PHPINFO =<?php echo json_encode(VUtils::ro('mdb/$_PHPINFO.arr')); ?>;
 
     function show(name, data) {
         var emptyData = data.length === 0;
