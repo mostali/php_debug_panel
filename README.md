@@ -13,7 +13,7 @@ $log=array();
 
 $active = true;
 if ($active) {
-    require_once $_SERVER['DOCUMENT_ROOT'] . '/frontend/classes/utils/VDebug.php';
+    require_once $_SERVER['DOCUMENT_ROOT'] . '/VDebug.php';
     VDebug::init(get_defined_vars(), $render_view = true);
 }
 
