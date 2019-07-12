@@ -1,7 +1,9 @@
 # vdebug
 Simple debug panel. Diplayed the all defined variables from $_GLOBALS &amp;&amp; get_defined_vars()
 
-##Install
+![Alt text](https://github.com/mostali/vdebug/blob/master/screen.jpg?raw=true "PHP Debug Panel")
+
+#Install
 <?php
 /**
  * View values from $_GLOBALS & thread context (get_defined_vars())
@@ -23,4 +25,3 @@ if ($active)
 
 
 
-![Alt text](https://github.com/mostali/vdebug/blob/master/screen.jpg?raw=true "PHP Debug Panel")
