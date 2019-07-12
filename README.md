@@ -1,10 +1,10 @@
-# vdebug
+# Simple html view for php debug environment
 Simple debug panel. Diplay the all defined variables from php environment - $_GLOBALS &amp;&amp; get_defined_vars()
 
 
 
-Usage
-
+# Usage
+```
 <?php
 /**
  * View values from $_GLOBALS & thread context (get_defined_vars())
@@ -22,7 +22,7 @@ $log[]='Hello world';
 
 if ($active)
     VDebug::finish(get_defined_vars());
-
+```
 
 
 ![Alt text](https://github.com/mostali/vdebug/blob/master/screen.jpg?raw=true "PHP Debug Panel")
