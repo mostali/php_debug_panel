@@ -6,4 +6,4 @@ Simple view for the all defined variables from $_GLOBALS &amp;&amp; get_defined_
 
 
 
-![Alt text](/../vdebug/screen.jpg?raw=true "Optional Title")
+![Alt text](/../mostali/vdebug/screen.jpg?raw=true "Optional Title")
